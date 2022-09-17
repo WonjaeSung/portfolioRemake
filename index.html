@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- <meta name="description" content="Personal WebSite designed and coded by Ellen Maria"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;700;900&family=Space+Mono:wght@400;700&display=swap"
+        rel="stylesheet">
+
+    <script src="https://kit.fontawesome.com/352d096582.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./img/[ ].svg" type="image/x-icon">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <title>Wonjae Sung's Portfolio</title>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <a href="#"><img id="logo" width="110" height="35" src="./img/[{WS}].svg" alt="logo"></a>
+            <ul class="nav-ul">
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#projects">PROJECTS</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="about">
+        <div class="main">
+            <a id="resume" href="https://drive.google.com/file/d/1-HMY-W9_1gcrmYpAoIatRS8NHAlbV4mc/view?usp=sharing" target="_blank"
+                rel="noopener noreferrer">Resumé</a>
+            <p class="hire"> <span class="dot"></span>Currently available for jobs!</p>
+            <h1 class="title">[Wonjae Sung]</h1>
+            <h2>Full Stack Developer</h2>
+            <div class="about-info">
+                <div>
+                    <h4>Location</h4>
+                    <p>Chicago, IL</p>
+                </div>
+                <!-- <div>
+                    <h4>Birthdate</h4>
+                    <p>06/01/1988</p>
+                </div> -->
+                <div>
+                    <h4>Language</h4>
+                    <img src="./img/usa.svg" width="20" height="12" alt="English" class="usaFlag"/>
+                    <img src="./img/korea.svg" width="20" height="16" alt="Korean" class="koreanFlag"/>
+                </div>
+            </div>
+            <p class="p-about">Hi there! Thanks for stopping by! Solving problems and providing elegant, innovative and accessible solutions is a passion of mine. I'm able to quickly learn new tools and technologies, and I like to be well-organized to deliver consistent results.  When I'm not coding, I can be found on indoor rock climbing walls, on a golf course, and in my kitchen cooking up delicious Korean dishes.
+                
+            </p>
+            <div class="skills">
+                <h3 class="skill-title">[DEV SKILLS]</h3>
+                <!-- <div>
+                    <button class="btn-skills dev active">Development</button>
+                    <button class="btn-skills design">Design</button>
+                </div> -->
+                <div class="skill-content devContent">
+                    <div class="box">
+                        <div>
+                            <img src="./img/webdev.svg" width="48" height="48" alt="">
+                        </div>
+                        <div>
+                            <h4>Web Design & Development</h4>
+                            <p>HTML, CSS, JavaScript</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div>
+                            <img src="./img/framework.svg" width="48" height="48" alt="">
+                        </div>
+                        <div>
+                            <h4>Front-End</h4>
+                            <p>React.js, HandleBars, Materialize, Bootstrap</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div>
+                            <img src="./img/tools.svg" width="48" height="48" alt="">
+                        </div>
+                        <div>
+                            <h4>Back-End</h4>
+                            <p>Node.js, Express, Mongoose</p>
+                        </div>
+                    </div>
+                    <div class="box">
+                        <div>
+                            <img src="./img/db.svg" width="48" height="48" alt="">
+                        </div>
+                        <div>
+                            <h4>Database Management System </h4>
+                            <p>MongoDB, NoSQL</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <section id="projects" aria-labelledby="projectsHeading">
+        <div class="project">
+            <h1 id="projectsHeading" class="title-section">[Projects]</h1>
+            <p>Here's some of my projects that I have worked on.
+                Feel free to make a pull request!</p><br>
+
+             <div class="repo">
+                <ul class="repo-ul">
+                    <li class="repo-li">
+                        <div><img class="image main" src="img/WeatherApp.gif" alt=""/></div>
+                        <h3>Weather Application</h3>
+                         <p>Created using HTML, CSS and Vanilla JavaScript. Look up current weather of any city in the world with interactive background. Weather API and background API were implemented. </p>
+                         <ul class="tags">
+                             <li><a href="https://crimpycodeweather.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i> DEMO</a></li>
+                             <li><a href="https://github.com/WonjaeSung/Weather-Application" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> CODE</a></li>
+                         </ul>
+                     </li>
+                  </ul>
+                
+                <ul class="repo-ul">
+                    <li class="repo-li">
+                        <div><img class="image main" src="img/crimpyCodeBar.gif" alt="" /></div>
+                        <h3>CrimpyCode Bar</h3>
+                        <p>Cocktail application that interacts with TheCocktailDB API. User is able to look up any alcoholic beverage by its name to see an image, recipe and ingredient</p>
+                        <ul class="tags">
+                             <li><a href="http://crimpycodebar.netlify.app" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i> DEMO</a></li>
+                             <li><a href="https://github.com/WonjaeSung/crimpyCodeBar" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> CODE</a></li>
+                        </ul>
+                     </li>
+                </ul>
+                <ul class="repo-ul">
+                    <li class="repo-li">
+                        <div><img class="image main" src="img/crimpyCode10key.gif" alt="" /></div>
+                        <h3>CrimpyCode 10-Key Calculator</h3>
+                        <p>Created using HTML, CSS and vanilla JavaScript. As a former accountant, I have carried around physical 10-key calculator as long as I can remember! Here is a simple, well designed calculator for a daily use.</p>
+                        <ul class="tags">
+                            <li><a href="https://crimpycode10key.netlify.app/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-link"></i> DEMO</a></li>
+                            <li><a href="https://github.com/WonjaeSung/Simple-Calculator" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> CODE</a></li>
+                        </ul>
+                     </li>
+                </ul>
+
+                <ul class="repo-ul">
+                    <li class="repo-li">
+                        <div><img class="image main" src="img/BillTracker.gif" alt="" /></div>
+                        <h3>Bill Tracker (full-stack)</h3>
+                        <p>Created using HTML, CSS, JS, MongoDB, Materialize, Passport. Collaborated with fellow 100devs members to create a full-stack invoice tracker application. User is able to login and input invoices to help themselves manage their expenses and bills.</p>
+                        <ul class="tags">
+                            <li><a href="https://github.com/WonjaeSung/todo-mvc-auth-local" target="_blank" rel="noopener noreferrer"><i class="fa-brands fa-github"></i> CODE</a></li>
+                        </ul>
+                     </li>
+                </ul>
+            </div>
+
+
+            <p class="git-link"><a href="https://github.com/WonjaeSung" target="_blank"
+                    rel="noopener noreferrer"><u>
+                        See more in GitHub →</u></a></p>
+        </div>
+    </section>
+
+    <section id="contact" aria-labelledby="contactHeading">
+        <div class="contact">
+            <h1 id="contactHeading" class="title-section">[Contact]</h1>
+            <p>Feel free to reach out if you would like to build something together, have a question, or just want to connect!
+            </p>
+            <a id="email" href="mailto:wsung88@gmail.com"><u>wsung88@gmail.com</u></a>
+            <p>You can follow me on
+
+                <a href="https://twitter.com/wonjae_sung" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-twitter"></i> <strong><u>Twitter</u></a></strong>,
+
+
+                <a href="https://www.linkedin.com/in/wonjaesung/" target="_blank" rel="noopener noreferrer">
+                    <i class="fa-brands fa-linkedin"></i><strong> <u>Linkedin</u>
+                </a></strong> and
+
+                <a href="https://github.com/WonjaeSung" target="_blank" rel="noopener noreferrer"><i
+                        class="fa-brands fa-github"> </i><strong> <u>GitHub</u></a></strong>.
+            </p>
+        </div>
+    </section>
+    <footer>
+        <p class="copyright">@ 2022 ALL RIGHTS RESERVED. </p>
+    </footer>
+
+    <script src="./js/main.js"></script>
+
+</body>
+
+</html>
