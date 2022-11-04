@@ -48,7 +48,7 @@ document.documentElement.style.setProperty('--scroll-padding', navigationHeight 
 //-------API GITHUB-------//
 const div = document.querySelector('.repositories')
 function getApiGitHub() {
-    fetch('https://api.github.com/users/ellenmariadev/repos')
+    fetch('https://api.github.com/users/WonjaeSung/repos')
         .then(async res => {
 
             if (!res.ok) {
